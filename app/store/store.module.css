@@ -1,0 +1,136 @@
+.storeContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #c7bbf5; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.location {
+  font-size: 16px;
+  color: #666;
+}
+
+.filterForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+  
+}
+
+.formGroup {
+  flex-grow: 1;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 7px 12px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #45a049;
+  text-decoration: none;
+}
+
+.partsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.partsTable th {
+  background-color: #9e9aca;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #9c98dd;
+}
+
+.partsTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #9c98dd;
+  vertical-align: middle;
+}
+
+.partsTable tr:hover {
+  background-color: #aa9fda;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actionsmain {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.editBtn {
+  padding: 6px 12px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.editBtn:hover {
+  background-color: #0b7dda;
+}
+
+.dangerBtn {
+  padding: 6px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dangerBtn:hover {
+  background-color: #d32f2f;
+}
+
